@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -12,8 +10,8 @@ function App() {
 
   }
   return (
-    <div className='w-screen h-screen duration-200' style={{backgroundColor: color}}>
-      <div className='fixed flex justify-center bottom-12 left-56 insert-x-0 px-2 '>
+    <div className='w-screen h-screen duration-200 flex flex-col justify-end items-center' style={{backgroundColor: color}}>
+      <div className='fixed flex mb-10'>
         <div className='flex flex-wrap justify-center gap-3 px-3 py-2 shadow-lg border-1 bg-white rounded-3xl'>
           <ColorSelector h="Red" css= "red"/>
           <ColorSelector h="Green" css= "green"/>
