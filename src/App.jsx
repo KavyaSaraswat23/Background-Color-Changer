@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-
+import ColorSelecrtor from './ColorSelecrtor'
 function App() {
   const [color, setColor] = useState("beige")
   function ColorSelector({h, css, text = "black"}){
@@ -26,6 +26,7 @@ function App() {
           <ColorSelector h="White" css= "white" text='black'/>
         </div>
       </div>
+      <Navbar/>
     </div>
   )
 }
